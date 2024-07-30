@@ -1,0 +1,57 @@
+.aboutImage img {
+    --b: 2px;  /* border thickness*/
+    --s: 60px; /* size of the corner*/
+    --g: 10px; /* the gap*/
+    --c: #d9d9d8; 
+    
+    padding: calc(var(--b) + var(--g));
+    background-image:
+      conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
+      conic-gradient(from -90deg at bottom var(--b) right var(--b),#0000 25%,var(--c) 0);
+    background-position:
+      var(--_p,0%) var(--_p,0%),
+      calc(100% - var(--_p,0%)) calc(100% - var(--_p,0%));
+    background-size: var(--s) var(--s);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 
+      background-position 1s var(--_i,.3s), 
+      background-size 1s calc(.3s - var(--_i,.3s));
+  }
+  .aboutImage img.alt {
+    background-image:
+      conic-gradient(from 180deg at top    var(--b) right var(--b),#0000 25%,var(--c) 0),
+      conic-gradient(from   0deg at bottom var(--b) left  var(--b),#0000 25%,var(--c) 0);
+    background-position:
+      calc(100% - var(--_p,0%)) var(--_p,0%),
+      var(--_p,0%) calc(100% - var(--_p,0%));
+  }
+  .aboutImage img:hover {
+    background-size: calc(80% - var(--g)) calc(80% - var(--g));
+    --_i: 0s;
+  }
+  
+  
+    @keyframes borderAnimation {
+      0% {
+        --_p: 10%;
+      }
+      100% {
+        --_p: 100%;
+      }
+    }
+    
+    .aboutImage img.alt {
+      background-image:
+        conic-gradient(from 180deg at top    var(--b) right var(--b),#0000 25%,var(--c) 0),
+        conic-gradient(from   0deg at bottom var(--b) left  var(--b),#0000 25%,var(--c) 0);
+      background-position:
+        calc(100% - var(--_p,0%)) var(--_p,0%),
+        var(--_p,0%) calc(100% - var(--_p,0%));
+    }
+    
+    .aboutImage img:hover {
+      background-size: calc(80% - var(--g)) calc(80% - var(--g));
+      --_i: 0s;
+    }
+    

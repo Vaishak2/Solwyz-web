@@ -1,0 +1,43 @@
+.animation_section_card {
+  --c: #ffffff; /* the border color */
+  --b: 8px;    /* the border thickness */
+  --g: 0px;     /* the gap on hover */
+
+  padding: calc(var(--g) + var(--b));
+  --_g: #0000 25%, var(--c) 0;
+  background: 
+    conic-gradient(from 180deg at right var(--b), var(--_g))
+    0 0 / 0% 100% no-repeat;
+
+  cursor: pointer;
+  transition: background-size .8s ease-in-out;
+}
+
+.animation_section_card:hover {
+  background-size: 100% 100%;
+  transition: background-size .8s ease-in-out; 
+  animation: increase .8s backwards;
+}
+
+@keyframes increase {
+  from {
+    background-size: 0% 100%;
+  }
+  to {
+    background-size:100% 100% 
+  }
+  
+}
+
+.animation_section_card:not(:hover) {
+  animation: decrease .8s forwards; 
+}
+
+@keyframes decrease {
+  from {
+    background-size: 100% 100%;
+  }
+  to {
+    background-size: 0% 100%;
+  }
+}
