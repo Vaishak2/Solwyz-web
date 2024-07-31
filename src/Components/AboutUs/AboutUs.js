@@ -36,7 +36,7 @@ function AboutUs() {
             <img src={AboutImage} alt="About image" className='about sm:w-[484px] sm:h-[431px] sm:hidden block' />
           </div>
           <motion.div
-            className={`sm:text-[16px] sm:leading-[21px] text-[#AEAEAE]   leading-[28px] sm:mt-0 sm:tracking-tighter font-medium  text-justify ${scrollY > 0 ? 'scroll-animate' : ''}`}
+            className={`sm:text-[16px] sm:leading-[21px] text-[#000000] leading-[21px] sm:mt-0 sm:tracking-normal font-medium  text-justify ${scrollY > 0 ? 'scroll-animate' : ''}`}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.9 }}
