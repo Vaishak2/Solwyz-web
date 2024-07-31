@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div className="relative">
       <div id='home' className='w-full sm:bg-banner-background-2 bg-banner-background-mobile bg-cover h-[745px] '>
-        <div className='flex-1 md:space-y-0 font-urbanist text-left  text-white pt-[243px]  sm:ml-[269px]  '>
+        <div className='flex-1 md:space-y-0 font-urbanist text-left  text-white pt-[243px]  sm:ml-[149px]  '>
           <div className='sm:mr-[269px] text-[40px] text-center sm:text-[77px] leading-normal sm:leading-[75px] sm:tracking-wide sm:text-left'><span className=' font-semibold'>Elevate </span><span className='font-thin'>your</span></div>
           <div className='font-extralight sm:text-[77px] text-[40px] sm:leading-[72px] ps-1 text-center sm:text-left'>business</div>
           <div className='text-[14px] font-extralight tracking-wide ps-1 sm:pt-1 text-center sm:text-left'>Pioneering business success through innovative solutions</div>

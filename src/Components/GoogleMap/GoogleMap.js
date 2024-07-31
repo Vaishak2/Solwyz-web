@@ -9,7 +9,8 @@ function GoogleMap() {
             </div>
             <div className="map_container flex flex-col lg:flex-row justify-center lg:gap-12 lg:pl-[150px] lg:pt-[20px] lg:pb-[52px] lg:pr-[150px] gap-6 items-center" >
                 <div className="lg:w-1/2 w-full p-4">
-                    <div className="border-4 border-gray-300">
+                <div className='sm:text-[18px] font-medium text-left'>INDIA :</div>
+                    <div className="border-4 border-gray-300 sm:mt-2">
                         <iframe
                             title="map"
                             width="100%"
@@ -26,7 +27,8 @@ function GoogleMap() {
                     </div>
                 </div>
                 <div className="lg:w-1/2 w-full p-4">
-                    <div className="border-4 border-gray-300">
+                <div className='sm:text-[18px] font-medium text-left'>UAE :</div>
+                    <div className="border-4 border-gray-300 sm:mt-2">
                         <iframe
                             title="map"
                             width="100%"

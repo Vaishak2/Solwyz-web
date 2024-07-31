@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { ReactComponent as Close } from '../../Assets/Icons/close.svg';
-import logo from '../../Assets/images/Solwyz logo green.png';
+import logo from '../../Assets/images/new solwyz logo.png';
 import BurgerIcon from '../../Assets/Icons/BurgerIcon.svg';
 import getInTouchBtn from "../../Assets/Icons/Frame 1000001805.svg"
 
@@ -21,11 +21,11 @@ function Navbar() {
         <div className="flex items-center">
           <Link
             to="/"
-            className="flex items-center space-x-3 rtl:space-x-reverse sm:mt-6 lg:pt-0 pt-3"
+            className="flex items-center space-x-3 rtl:space-x-reverse lg:pt-0 pt-3"
           >
             <img
               src={logo}
-              className="lg:h-[60px] lg:w-[110px] w-[75px] h-[40px]"
+              className="lg:h-[54px] lg:w-[130px] w-[75px] h-[40px]"
               alt="Flowbite Logo"
             />
           </Link>
