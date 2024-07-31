@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { ReactComponent as AddressIcon } from '../../Assets/Icons/distance.svg';
 import { ReactComponent as EmailIcon } from '../../Assets/Icons/drafts.svg';
 import { ReactComponent as SolwyzLogo } from '../../Assets/images/Solwyz logo white.svg';
+import { ReactComponent as CallIcon } from '../../Assets/Icons/phone-call-svgrepo-com (1).svg';
 import { ReactComponent as ArrowIcon } from '../../Assets/Icons/Arrow 1.svg'; // Adjust path to your Arrow icon
 import '../Footer/Footer.css'
 
@@ -134,6 +135,10 @@ function Footer() {
                         <div className='flex items-center mt-[10px]'>
                             <EmailIcon className='w-[24px] h-[24px] mr-[8px]' />
                             <h1 className='leading-[21px]'>connect@solwyz.com</h1>
+                        </div>
+                        <div className='flex items-center mt-[10px]'>
+                            <CallIcon className='w-[24px] h-[24px] mr-[8px]' />
+                            <h1 className='leading-[21px]'>+91 9778422854 , 9778699266</h1>
                         </div>
                     </div>
                 </div>
