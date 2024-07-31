@@ -19,7 +19,7 @@ function Footer() {
 
         // Validate email format
         const isValidEmail = validateEmail(emailValue);
-        
+
         if (isValidEmail) {
             // Handle subscription logic
             console.log('Subscribed with email:', emailValue);
@@ -61,8 +61,8 @@ function Footer() {
         <div className='main_footer_container bg-Footer_BackDrop bg-cover text-white h-auto text-left relative pb-10'>
             <div className='sm:flex justify-around sm:pt-[105px] pt-[52px] sm:mb-[118px] mb-3 ml-[10px]'>
                 <div className='widen text-[16px]'>
-                <Link to='/'>
-                    <SolwyzLogo className='w-[100px] h-auto text-white' /></Link>
+                    <Link to='/'>
+                        <SolwyzLogo className='w-[100px] h-auto text-white' /></Link>
                     <div className='opacity-[50%]'>
                         Widen the horizon of <br /> Your Business with Solwyz!
                     </div>
@@ -76,7 +76,8 @@ function Footer() {
                         <li className='hover:scale-110 hover:text-white'><Link to='/contactus' className="text-white">Contact Us</Link></li>
                     </ul>
                 </div>
-                <div className='ml-[10px]'>
+
+                {/* <div className='ml-[10px]'>
                     <h1 className='text-[18px] opacity-[50%]'>Subscribe our newsletter</h1>
                     <div className="flex justify-around bg-white bg-opacity-[50%] hover:bg-white duration-500 text-white hover:text-black font-bold rounded-full w-[289px] h-[55px] mt-[9px] mb-[9px] relative">
                         <div className='w-full my-auto text-[15px] font-medium ml-[10px]'>
@@ -103,7 +104,8 @@ function Footer() {
                         </div>
                     </div>
                     <h1 className='text-[13px] opacity-[50%] mt-2'>* Will send you weekly updates for your better <br /> tool management.</h1>
-                </div>
+                </div> */}
+
             </div>
 
             <div className='sub_div ml-[10px]'>
