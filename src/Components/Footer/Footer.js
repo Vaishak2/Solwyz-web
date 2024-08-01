@@ -8,6 +8,10 @@ import { ReactComponent as EmailIcon } from '../../Assets/Icons/drafts.svg';
 import { ReactComponent as SolwyzLogo } from '../../Assets/images/Solwyz logo white.svg';
 import { ReactComponent as CallIcon } from '../../Assets/Icons/phone-call-svgrepo-com (1).svg';
 import { ReactComponent as ArrowIcon } from '../../Assets/Icons/Arrow 1.svg'; // Adjust path to your Arrow icon
+import solwyzWhite from '../../Assets/images/solwyz white 1.png'
+import Distance from '../../Assets/Icons/distance.png'
+import Call from '../../Assets/Icons/call.png'
+import Drafts from '../../Assets/Icons/drafts.png'
 import '../Footer/Footer.css'
 
 function Footer() {
@@ -59,15 +63,16 @@ function Footer() {
 
     return (
         <div className='main_footer_container bg-Footer_BackDrop bg-cover text-white h-auto text-left relative pb-10'>
-            <div className='sm:flex justify-around sm:pt-[105px] pt-[52px] sm:mb-[118px] mb-3 ml-[10px]'>
-                <div className='widen text-[16px]'>
-                    <Link to='/'>
-                        <SolwyzLogo className='w-[100px] h-auto text-white' /></Link>
-                    <div className='opacity-[50%]'>
+            <div className='sm:flex sm:pt-[56px] pt-[52px] sm:px-[102px] bg-green-700'>
+
+                <div>
+                    <Link to='/'><img className='sm:w-[91px] sm:h-[47px]' src={solwyzWhite}></img></Link>
+                    <div className='opacity-[50%]  sm:text-[16px] sm:leading-[19px] sm:mt-1'>
                         Widen the horizon of <br /> Your Business with Solwyz!
                     </div>
                 </div>
-                <div className='about_div lg:mt-0 mt-[48px] flex sm:text-[20px] text-[16px] text-gray-400 sm:leading-[28px] leading-[19px] font-semibold space-x-[90px] ml-[10px]'>
+
+                <div className='about_div lg:mt-0 mt-[48px] flex sm:text-[24px] text-[16px] text-gray-400 sm:leading-[28px] leading-[19px] font-semibold space-x-[90px] ml-[10px]'>
                     <ul className='space-y-[10px]'>
                         <li className='hover:scale-110 hover:text-white'><Link to='/' className="text-white">Home</Link></li>
                         <li className='hover:scale-110 hover:text-white'><Link to='/aboutdetails' className="text-white">About Us</Link></li>
@@ -75,6 +80,37 @@ function Footer() {
                         <li className='hover:scale-110 hover:text-white'><Link to='/services' className="text-white">Services</Link></li>
                         <li className='hover:scale-110 hover:text-white'><Link to='/contactus' className="text-white">Contact Us</Link></li>
                     </ul>
+                </div>
+
+                <div>
+                    <div className='sm:text-[24px] font-semibold'>Address</div>
+                    <div className='sm:flex gap-[36px]'>
+
+                        <div >
+                            <div className='text-[18px] sm:mt-[16px] font-semibold'>INDIA</div>
+                            <div className='sm:flex sm:mt-[12px]'>
+                                <div><img className='sm:w-6 sm:h-6' src={Distance}></img></div>
+                                <div className='sm:text-[14px] sm:leading-4 sm:ml-2 sm:tracking-wide'>6th floor, Asiatic Business Centre,<br />NH Bypass, Near Technopark phase-1,<br />Kazhakkoottam, Thiruvananthapuram</div>
+                            </div>
+                            <div className='sm:flex sm:mt-[12px]'>
+                                <div><img className='sm:w-6 sm:h-6' src={Call}></img></div>
+                                <div className='sm:text-[14px] sm:leading-4 sm:ml-2'>+91 9778422854 +91 9778699266</div>
+                            </div>
+                            <div className='sm:flex sm:mt-[12px]'>
+                                <div><img className='sm:w-6 sm:h-6' src={Drafts}></img></div>
+                                <div className='sm:text-[14px] sm:leading-4 sm:ml-2 sm:tracking-wide'>solwyztechnologies@gmail.com</div>
+                            </div>
+                        </div>
+
+                        <div className='sm:pl-[32px] border-s-[1px] border-gray-400'>
+                            <div className='text-[18px] sm:mt-[16px] font-semibold'>UAE</div>
+                            <div className='sm:flex sm:mt-[12px]'>
+                                <div><img className='sm:w-6 sm:h-6' src={Distance}></img></div>
+                                <div className='sm:text-[14px] sm:leading-4 sm:ml-2 sm:tracking-wide'>Room 207, Bussiness point building,<br />Port Saeed Street, Deira-UAE</div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
                 {/* <div className='ml-[10px]'>
