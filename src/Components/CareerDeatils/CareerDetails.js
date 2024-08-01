@@ -17,7 +17,7 @@ function CareerDetails() {
           <div>Job type: Full Time</div>
           <div className='mt-2 sm:mt-0 sm:ml-[55px]'>Experience : 2-4 yrs </div>
         </div>
-        <button className='border bg-white rounded-lg text-[#007F97] px-2 py-2 sm:px-5 sm:py-2 mt-4 sm:mt-6 sm:text-[14px] sm:leading-6 font-semibold sm:w-[140px] w-[90px] sm:h-[40px] h-[30px] text-[10px] leading-3 '>Join the team</button>
+        {/* <button className='border bg-white rounded-lg text-[#007F97] px-2 py-2 sm:px-5 sm:py-2 mt-4 sm:mt-6 sm:text-[14px] sm:leading-6 font-semibold sm:w-[140px] w-[90px] sm:h-[40px] h-[30px] text-[10px] leading-3 '>Join the team</button> */}
       </div>
 
       <div className='w-[90%] sm:w-[820px] text-start mx-auto text-[14px] sm:text-[14px] mt-8'>
@@ -49,7 +49,7 @@ function CareerDetails() {
         </div>
         <div className='flex mt-8 sm:mt-14 mb-10 sm:mb-20'>
           <button className='border rounded-lg border-black font-medium py-2 sm:py-4 px-4 sm:px-9 text-[#03434F]'>Back</button>
-          <Link to='/careersApplication'>
+          <Link to='careersApplication'>
             <button className='border rounded-lg bg-[#03434F] flex items-center py-2 sm:py-3 px-4 sm:px-4 text-white font-medium ml-4 sm:ml-10'>
               Apply
               <img className='w-4 h-4 sm:w-6 sm:h-6 ml-2' src={ApplyArrow} alt="Apply Arrow" />
