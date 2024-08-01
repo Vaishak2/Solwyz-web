@@ -63,16 +63,16 @@ function Footer() {
 
     return (
         <div className='main_footer_container bg-Footer_BackDrop bg-cover text-white h-auto text-left relative pb-10'>
-            <div className='sm:flex sm:pt-[56px] pt-[52px] sm:px-[102px] bg-green-700'>
+            <div className='sm:flex justify-between sm:pt-[56px] pt-[52px] sm:px-[102px] px-[16px]'>
 
                 <div>
-                    <Link to='/'><img className='sm:w-[91px] sm:h-[47px]' src={solwyzWhite}></img></Link>
-                    <div className='opacity-[50%]  sm:text-[16px] sm:leading-[19px] sm:mt-1'>
+                    <Link to='/'><img className='w-[91px] h-[47px]' src={solwyzWhite}></img></Link>
+                    <div className='opacity-[50%]  text-[16px] sm:leading-[19px] sm:mt-1'>
                         Widen the horizon of <br /> Your Business with Solwyz!
                     </div>
                 </div>
 
-                <div className='about_div lg:mt-0 mt-[48px] flex sm:text-[24px] text-[16px] text-gray-400 sm:leading-[28px] leading-[19px] font-semibold space-x-[90px] ml-[10px]'>
+                <div className='about_div lg:mt-0 sm:mt-[48px] mt-[40px] flex sm:text-[24px] text-[16px] text-gray-400 sm:leading-[28px] leading-[19px] font-semibold space-x-[90px] sm:ml-[10px]'>
                     <ul className='space-y-[10px]'>
                         <li className='hover:scale-110 hover:text-white'><Link to='/' className="text-white">Home</Link></li>
                         <li className='hover:scale-110 hover:text-white'><Link to='/aboutdetails' className="text-white">About Us</Link></li>
@@ -82,31 +82,33 @@ function Footer() {
                     </ul>
                 </div>
 
-                <div>
-                    <div className='sm:text-[24px] font-semibold'>Address</div>
+                <div className='mt-[40px] sm:mt-0'>
+                    <div className='sm:text-[24px] text-[18px] font-semibold'>Address</div>
                     <div className='sm:flex gap-[36px]'>
 
                         <div >
-                            <div className='text-[18px] sm:mt-[16px] font-semibold'>INDIA</div>
-                            <div className='sm:flex sm:mt-[12px]'>
-                                <div><img className='sm:w-6 sm:h-6' src={Distance}></img></div>
-                                <div className='sm:text-[14px] sm:leading-4 sm:ml-2 sm:tracking-wide'>6th floor, Asiatic Business Centre,<br />NH Bypass, Near Technopark phase-1,<br />Kazhakkoottam, Thiruvananthapuram</div>
+                            <div className='text-[18px] mt-[16px] font-semibold'>INDIA</div>
+                            <div className='flex sm:mt-[12px] mt-[18px]'>
+                                <div><img className='w-6 h-6' src={Distance}></img></div>
+                                <div className='text-[14px] sm:leading-4 ml-2 sm:tracking-wide'>6th floor, Asiatic Business Centre,<br />NH Bypass, Near Technopark phase-1,<br />Kazhakkoottam, Thiruvananthapuram</div>
                             </div>
-                            <div className='sm:flex sm:mt-[12px]'>
-                                <div><img className='sm:w-6 sm:h-6' src={Call}></img></div>
-                                <div className='sm:text-[14px] sm:leading-4 sm:ml-2'>+91 9778422854 +91 9778699266</div>
+                            <div className='flex mt-[12px]'>
+                                <div><img className='w-6 h-6' src={Call}></img></div>
+                                <div className='text-[14px] sm:leading-4 ml-2'>+91 9778422854 +91 9778699266</div>
                             </div>
-                            <div className='sm:flex sm:mt-[12px]'>
-                                <div><img className='sm:w-6 sm:h-6' src={Drafts}></img></div>
-                                <div className='sm:text-[14px] sm:leading-4 sm:ml-2 sm:tracking-wide'>solwyztechnologies@gmail.com</div>
+                            <div className='flex mt-[16px]'>
+                                <div><img className='w-6 h-6' src={Drafts}></img></div>
+                                <div className='text-[14px] sm:leading-4 ml-2 sm:tracking-wide'>solwyztechnologies@gmail.com</div>
                             </div>
                         </div>
 
-                        <div className='sm:pl-[32px] border-s-[1px] border-gray-400'>
+                        <div className='sm:hidden border-t border-[#FFFFFF] w-[212px] mt-[24px]'></div>
+
+                        <div className='sm:pl-[32px] mt-[24px] sm:mt-0 sm:border-s-[1px] border-gray-400'>
                             <div className='text-[18px] sm:mt-[16px] font-semibold'>UAE</div>
-                            <div className='sm:flex sm:mt-[12px]'>
-                                <div><img className='sm:w-6 sm:h-6' src={Distance}></img></div>
-                                <div className='sm:text-[14px] sm:leading-4 sm:ml-2 sm:tracking-wide'>Room 207, Bussiness point building,<br />Port Saeed Street, Deira-UAE</div>
+                            <div className='flex sm:mt-[12px] mt-[18px]'>
+                                <div><img className='w-6 h-6' src={Distance}></img></div>
+                                <div className='text-[14px] sm:leading-4 ml-2 tracking-wide'>Room 207, Bussiness point building,<br />Port Saeed Street, Deira-UAE</div>
                             </div>
                         </div>
 
@@ -144,11 +146,11 @@ function Footer() {
 
             </div>
 
-            <div className='sub_div ml-[10px]'>
-                <div className='sm:flex justify-around'>
-                    <div className='connect sm:pt-[86px] pt-[10px] ml-[10px] mt-[30px]'>
-                        <h1 className='text-start text-[16px] mb-[17px] opacity-[50%] font-thin'>Connect with Us</h1>
-                        <div className='icon flex justify-around gap-[30px] w-[159px] h-[20px] text-[20px]'>
+            <div className='sub_div mt-[40px] sm:mt-0'>
+                <div className='sm:flex justify-between sm:px-[102px]'>
+                    <div className='connect sm:pt-[86px] pt-[10px] sm:ml-[10px] ml-[16px] mt-[30px]'>
+                        <h1 className='text-start text-[16px] mb-[17px] opacity-[50%] font-thin'>Connect with Us :</h1>
+                        <div className='icon flex justify-around gap-[30px] w-[159px] h-[20px] text-[20px] mt-[16px] sm:mt-0'>
                             <a href='https://www.facebook.com/people/Solwyz-Technologies/61559030405055/'><FontAwesomeIcon icon={faFacebookF} /></a>
                             <a href='https://wa.me/'><FontAwesomeIcon icon={faWhatsapp} /></a>
                             <a href='https://www.instagram.com/solwyz_technologies?igsh=MWlpcDAwa2RwMHAwMA%3D%3D&utm_source=qr'><FontAwesomeIcon icon={faInstagram} /></a>
@@ -158,8 +160,9 @@ function Footer() {
                     <div className='sm:pt-[156px] opacity-[50%] font-thin text-[14px] sm:visible invisible'>
                         Copyright 2024 - All rights reserved
                     </div>
+
                     <div className='ml-[10px] mt-[30px]'>
-                        <h1 className='text-[23px] leading-[27px] tracking-[3%] mb-[13px] font-semibold flex items-center'>
+                        {/* <h1 className='text-[23px] leading-[27px] tracking-[3%] mb-[13px] font-semibold flex items-center'>
                             Address
                         </h1>
                         <div className='flex text-[14px] leading-[24px] '><AddressIcon className='w-[32px] h-[32px] mr-[8px]' />
@@ -177,8 +180,9 @@ function Footer() {
                         <div className='flex items-center mt-[10px]'>
                             <CallIcon className='w-[24px] h-[24px] mr-[8px]' />
                             <h1 className='leading-[21px]'>+91 9778422854 , 9778699266</h1>
-                        </div>
+                        </div> */}
                     </div>
+
                 </div>
             </div>
 
