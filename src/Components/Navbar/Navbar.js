@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { ReactComponent as Close } from '../../Assets/Icons/close.svg';
-import logo from '../../Assets/images/Solwyz logo green.png';
+import logo from '../../Assets/images/new solwyz logo.png'
 import BurgerIcon from '../../Assets/Icons/BurgerIcon.svg';
 import getInTouchBtn from "../../Assets/Icons/Frame 1000001805.svg"
 import Download from "../../Assets/Icons/download.png"
@@ -19,20 +19,21 @@ function Navbar() {
 
   return (
     <div className="bg-white md:px-auto fixed lg:h-[100px] h-[60px] w-full z-50 start-0">
-      <div className="sm:px-28 px-4 w-full text-white md:order-1 flex items-center sm:justify-normal justify-between">
+      <div className="sm:pl-[72px] sm:pr-[40px] px-4 w-full text-white md:order-1 flex items-center justify-between">
         <div className="flex items-center">
           <Link
             to="/"
-            className="flex items-center space-x-3 rtl:space-x-reverse sm:mt-6 lg:pt-0 pt-3"
+            className="flex items-center space-x-3 rtl:space-x-reverse sm:mt-0 lg:pt-0 pt-3"
           >
             <img
               src={logo}
-              className="lg:h-[60px] lg:w-[110px] w-[75px] h-[40px]"
+              className="lg:h-[60px] lg:w-[110px] w-[75px] h-[40px] sm:w-[130px] sm:h-[54px]  "
               alt="Flowbite Logo"
             />
           </Link>
         </div>
-        <div className="large-screen hidden sm:block sm:w-[351px] sm:h-[26px] sm:flex sm:ml-[350px] sm:text-black sm:justify-between sm:text-[16px] sm:leading-4 sm:font-medium">
+        <div className="large-screen hidden  sm:w-[351px] sm:h-[26px] sm:flex sm:text-black justify-between
+         sm:text-[16px] sm:leading-4 sm:font-medium">
           <NavLink
             to="/"
             className={({ isActive }) =>
@@ -95,25 +96,25 @@ function Navbar() {
           </NavLink>
         </div>
 
+        <div className='flex items-center justify-center'>
+          <div className='hidden sm:block'>
+            <div className='flex'>
+              <a href="/solwyz corporate revised.pdf" download="solwyz corporate revised.pdf" className='sm:w-[125px] sm:h-[40px] bg-[#03434F] rounded-lg pl-4 flex pt-2 pr-4 justify-between no-underline text-white'>
+                <span>Brochure</span>
+                <img className='sm:mt-1 sm:ml-2 sm:w-4 sm:h-4' src={Download} alt="Download icon" />
+              </a>
+            </div>
+          </div>
 
-        <div className='sm:ml-[203px]'>
-      <div className='flex'>
-        <a href="/solwyz corporate revised.pdf" download="solwyz corporate revised.pdf" className='sm:w-[125px] sm:h-[40px] bg-[#03434F] rounded-lg pl-4 flex pt-2 pr-4 justify-between no-underline text-white'>
-          <span>Brochure</span>
-          <img className='sm:mt-1 sm:ml-2 sm:w-4 sm:h-4' src={Download} alt="Download icon" />
-        </a>
-      </div>
-    </div>
+          <Link to='contactus'>
+            <button id='bannerButton' className="sm:flex hidden sm:block border border-black text-black hover:text-gray-300 font-bold py-2 px-4 rounded-full sm:ml-8  w-[178px] h-[48px] sm:translate-y-[-28px]">
+              <div className=' my-auto text-[16px]  font-medium'>Get in Touch</div>
 
-        <Link to='contactus'>
-        <button id='bannerButton' className="sm:flex hidden sm:block border border-black text-black hover:text-gray-300 font-bold py-2 px-4 rounded-full sm:ml-8  w-[178px] h-[48px] sm:translate-y-[-28px]">
-          <div className=' my-auto text-[16px]  font-medium'>Get in Touch</div>
+              <img className='translate-x-[30px]' src={getInTouchBtn} alt="" />
 
-          <img className='translate-x-[30px]' src={getInTouchBtn} alt="" />
-
-        </button>
-        </Link>
-
+            </button>
+          </Link>
+        </div>
         <div
           className="sm:hidden block mt-2 cursor-pointer"
           onClick={toggleNavbar}
@@ -194,7 +195,7 @@ function Navbar() {
       ) : (
         <div></div>
       )}
-      
+
     </div>
   );
 }
