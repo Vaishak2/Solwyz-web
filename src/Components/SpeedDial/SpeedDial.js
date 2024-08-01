@@ -10,7 +10,7 @@ import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 const actions = [
   { icon: <WhatsAppIcon />, name: 'WhatsApp', url: 'https://wa.me/' },
-  { icon: <LinkedInIcon />, name: 'LinkedIn', url: 'https://www.linkedin.com/in/solwyz-technologies-205930304/' },
+  { icon: <LinkedInIcon />, name: 'LinkedIn', url: 'https://www.linkedin.com/company/104707476/admin/dashboard/' },
   { icon: <FacebookIcon />, name: 'Facebook', url: 'https://www.facebook.com/people/Solwyz-Technologies/61559030405055/' },
   { icon: <X />, name: 'X', url: 'https://twitter.com/your-profile' }
 ];

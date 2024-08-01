@@ -75,7 +75,7 @@ function CareerDetailForm() {
   }, []);
 
   return (
-    <div>
+    <div> 
       <div className='pt-4 sm:pt-[100px]'></div>
       <div className='bg-Career-Details-Banner h-[200px] sm:h-[375px] bg-cover text-white text-center justify-center mt-4'>
         <div className='text-[24px] sm:text-[36px] pt-12 sm:pt-[116px] uppercase leading-6 sm:leading-8 font-medium'>Product designer</div>
@@ -83,7 +83,7 @@ function CareerDetailForm() {
           <div>Job type: Full Time</div>
           <div className='mt-2 sm:mt-0 sm:ml-[55px]'>Experience : 2-4 yrs </div>
         </div>
-        <button className='border bg-white rounded-lg text-[#007F97] px-2 py-2 sm:px-5 sm:py-2 mt-4 sm:mt-6 sm:text-[14px] sm:leading-6 font-semibold sm:w-[140px] w-[90px] sm:h-[40px] h-[30px] text-[10px] leading-3 '>Join the team</button>
+        {/* <button className='border bg-white rounded-lg text-[#007F97] px-2 py-2 sm:px-5 sm:py-2 mt-4 sm:mt-6 sm:text-[14px] sm:leading-6 font-semibold sm:w-[140px] w-[90px] sm:h-[40px] h-[30px] text-[10px] leading-3 '>Join the team</button> */}
       </div>
 
       <div className='border-black border w-[90%] sm:w-[1030px] h-auto mt-8 mx-auto mb-20'>

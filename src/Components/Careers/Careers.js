@@ -22,11 +22,11 @@ function Careers() {
         <div className=' sm:w-[704px] w-[250px] pt-[72px] sm:pt-0 pb-4 sm:pb-0'>
           <div className='text-white sm:text-[36px] text-[18px] leading-8 font-medium'>JOIN US</div>
           <div className='text-[white] sm:text-[16px] text-[10px] sm:leading-6 leading-3 font-normal sm:mt-[24px] tracking-wide'>At Solwyz Technologies, we're committed to building a robust team filled with dynamic professionals. Our work atmosphere is a blend of fun and learning, fostering both personal and professional growth.<br></br> If you're looking to be part of a vibrant team where your skills are valued and your growth is nurtured, Solwyz Technologies is the place for you!<br></br>Apply now and be part of our journey towards excellence!</div>
-          <div className='sm:text-[14px] text-[12px] text-[#007F97] bg-[#FFFFFF] hover:bg-gray-300 cursor-pointer sm:w-[140px] sm:h-[40px] w-[100px] h-[30px] font-normal flex items-center justify-center mx-auto sm:mt-[24px] mt-[16px] rounded-lg'>
-          <NavLink to="#currentOpenings">
+          {/* <div className='sm:text-[14px] text-[12px] text-[#007F97] bg-[#FFFFFF]  sm:w-[140px] sm:h-[40px] w-[100px] h-[30px] font-normal flex items-center justify-center mx-auto sm:mt-[24px] mt-[16px] rounded-lg'>
+        
             Join the team
-          </NavLink>
-          </div>
+          
+          </div> */}
         </div>
       </div>
 
