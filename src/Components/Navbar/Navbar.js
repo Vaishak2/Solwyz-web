@@ -18,7 +18,7 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-white md:px-auto fixed lg:h-[100px] h-[60px] w-full z-50 start-0">
+    <div className="bg-white md:px-auto fixed lg:h-[100px] h-[60px] w-full z-50 start-0 font-urbanist">
       <div className="sm:pl-[72px] sm:pr-[40px] px-4 w-full text-white md:order-1 flex items-center justify-between">
         <div className="flex items-center">
           <Link
