@@ -62,7 +62,7 @@ function Footer() {
     };
 
     return (
-        <div className='main_footer_container bg-Footer_BackDrop bg-cover text-white h-auto text-left relative pb-10'>
+        <div className='main_footer_container bg-Footer_BackDrop bg-cover text-white h-auto text-left relative pb-10 font-urbanist'>
             <div className='sm:flex justify-between sm:pt-[56px] pt-[52px] sm:px-[102px] px-[16px]'>
 
                 <div>

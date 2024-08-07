@@ -3,7 +3,7 @@ import React from 'react';
 function GoogleMap() {
     return (
         <div className="Location pt-12">
-            <div className='text-[55px] tracking-wider'>
+            <div className='text-[55px] font-urbanist tracking-wider'>
                 <span className='font-semibold'>Locate </span>
                 <span className='font-thin'>Us</span>
             </div>

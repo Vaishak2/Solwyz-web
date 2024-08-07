@@ -11,7 +11,7 @@ import EmpoweringSection from '../EmpoweringSection/EmpoweringSection'
 function Home() {
 
   return (
-    <div>
+    <div className = "font-urbanist" >
       <Banner/>
       <AboutUs/>
       <Services/>  
