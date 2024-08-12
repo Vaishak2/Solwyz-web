@@ -152,7 +152,7 @@ function Footer() {
                         <h1 className='text-start text-[16px] mb-[17px] opacity-[50%] font-thin'>Connect with Us :</h1>
                         <div className='icon flex justify-around gap-[30px] w-[159px] h-[20px] text-[20px] mt-[16px] sm:mt-0'>
                             <a href='https://www.facebook.com/people/Solwyz-Technologies/61559030405055/'><FontAwesomeIcon icon={faFacebookF} /></a>
-                            <a href='https://wa.me/'><FontAwesomeIcon icon={faWhatsapp} /></a>
+                            <a href='https://wa.me/9778422854'><FontAwesomeIcon icon={faWhatsapp} /></a>
                             <a href='https://www.instagram.com/solwyz_technologies?igsh=MWlpcDAwa2RwMHAwMA%3D%3D&utm_source=qr'><FontAwesomeIcon icon={faInstagram} /></a>
                             <a href='https://www.linkedin.com/in/solwyz-technologies-205930304/'><FontAwesomeIcon icon={faLinkedin} /></a>
                         </div>
