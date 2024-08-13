@@ -90,7 +90,7 @@ function Footer() {
                             <div className='text-[18px] mt-[16px] font-semibold'>INDIA</div>
                             <div className='flex sm:mt-[12px] mt-[18px]'>
                                 <div><img className='w-6 h-6' src={Distance}></img></div>
-                                <div className='text-[14px] sm:leading-4 ml-2 sm:tracking-wide'>6th floor, Asiatic Business Centre,<br />NH Bypass, Near Technopark phase-1,<br />Kazhakkoottam, Thiruvananthapuram</div>
+                                <div className='text-[14px] sm:leading-4 ml-2 sm:tracking-wide'>2nd floor, Asiatic Business Centre,<br />NH Bypass, Near Technopark phase-1,<br />Kazhakkoottam, Thiruvananthapuram</div>
                             </div>
                             <div className='flex mt-[12px]'>
                                 <div><img className='w-6 h-6' src={Call}></img></div>
@@ -98,7 +98,7 @@ function Footer() {
                             </div>
                             <div className='flex mt-[16px]'>
                                 <div><img className='w-6 h-6' src={Drafts}></img></div>
-                                <div className='text-[14px] sm:leading-4 ml-2 sm:tracking-wide'>solwyztechnologies@gmail.com</div>
+                                <div className='text-[14px] sm:leading-4 ml-2 sm:tracking-wide'>connect@solwyz.com</div>
                             </div>
                         </div>
 
